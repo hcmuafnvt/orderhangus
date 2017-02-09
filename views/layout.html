@@ -6,17 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Order Hang US</title>  
 
-    <!-- My style -->
-    <link rel='stylesheet' href='public/css/bootstrap.min.css' type='text/css' media='all' />
+    <!-- My style -->    
     <link rel='stylesheet' href='public/css/style.min.css' type='text/css' media='all' />
     <!-- My style -->
 </head>
 
 <body>
-    <%-body%>
+    <header>
+        <nav class="top-nav">
+            <h1 class="logo">Order Hang US</h1>        
+            <ul class="left-menu">
+                <li>Bảng giá cước</li>
+                <li>Hướng dẫn mua hàng</li>
+                <li>Kiểm tra đơn hàng</li>                
+            </ul>        
+        </nav>
+        <div class="search-box"></div>
+    </header>
+
+    <main>
+        <%-body%>
+    </main>
+
+    <footer>
+        
+    </footer>    
 
     <script type='text/javascript' src='public/js/libs/jquery.min.js'></script>      
-    <script type='text/javascript' src='public/js/pages/app.min.js'></script>
+    <script type='text/javascript' src='public/js/app.js'></script>
 </body>
 
 </html>

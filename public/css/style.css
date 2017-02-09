@@ -1,25 +1,17 @@
-/* DỊCH VỤ CỦA CHÚNG TÔI */
-.sow-image-container {
-  width: 50%;
-  margin: 0px auto;
+header .top-nav {
+  height: 70px;
 }
-/* SẢN PHẨM */
-.owl-products .item {
-  height: 200px;
+header .top-nav h1.logo {
+  float: left;
 }
-.owl-products .item img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  margin: 0px auto;
+header .top-nav .left-menu {
+  float: left;
 }
-.header-slider {
-  z-index: 1;
-  background: #ffffff;
+header .top-nav .left-menu li {
+  float: left;
 }
-.nav-menu .fa {
-  font-size: 1.5em !important;
-}
-.search .fa-search {
-  font-size: 1.5em !important;
+header .search-box {
+  height: 192px;
+  background-color: #000;
+  opacity: 0.7;
 }
