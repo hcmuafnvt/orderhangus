@@ -24,13 +24,7 @@ app.use(expressLayouts);
 /**
 * Routers
 */
-app.get('/', function(req, res) {
-    res.render('index');
-});
-
-app.use(function(req, res) {
-    res.end('<h1>404 page</h1>');
-});
+require('./routers')(app);
 
 /**
 * start app
